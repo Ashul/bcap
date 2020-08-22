@@ -1,0 +1,18 @@
+
+  .login  {
+    max-width:350px;
+     border: 1px solid #f9fafc;
+    background-color:#f9fafc; 
+    height:256px;
+    margin:50px auto 50px auto;
+    padding:20px;
+    border-radius: 5px;
+  }
+.center{text-align: center;padding: 10px;margin-bottom: 30px;}
+
+.form-control{margin: 5px 0px;}
+.btn{margin-top: 15px!important;}
+.message{
+/* box-shadow: 0 0 0 1px #E0B4B4 inset, 0 0 0 0 transparent; */
+color: #9F3A38;
+}

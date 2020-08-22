@@ -1,0 +1,126 @@
+.submit-button{
+  width: 120px;
+  margin: 0 auto;
+}
+.errorM{
+  color: red;
+  text-align: left;
+  float: left;
+  display: block;
+  width: 100%;
+}
+.errorM2{
+  color: red;
+  text-align: center;
+}
+.bg-s-con{margin-top: 50px;}
+#contact .loader-wrap{
+height:100% !important;
+}
+#contact .loader{
+  margin-top: 40%;
+}
+.bg-shape-contact {
+  /* background-image: url(../images/); */
+  background: url('../../assets/images/f5.jpg') #f9fafc;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: scroll;
+  background-size: cover;
+  -webkit-animation: fadeinleft 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinleft 3s; /* Firefox < 16 */
+   -ms-animation: fadeinleft 3s; /* Internet Explorer */
+    -o-animation: fadeinleft 3s; /* Opera < 12.1 */
+       animation: fadeinleft 3s;
+
+}
+.bg-shape-contact2 {
+  /* background-image: url(../images/); */
+  background: url('../../assets/images/f6.jpg') #f9fafc;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: scroll;
+  background-size: cover;
+  -webkit-animation: fadeinleft 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinleft 3s; /* Firefox < 16 */
+   -ms-animation: fadeinleft 3s; /* Internet Explorer */
+    -o-animation: fadeinleft 3s; /* Opera < 12.1 */
+       animation: fadeinleft 3s;
+
+}
+
+.c-right, .c-left{
+  box-shadow: 0 4px 44px rgba(17, 29, 48, 0.06);
+  padding: 42px 52px;
+  background: #fff;
+}
+.c-box{
+  box-shadow: 0 4px 44px rgba(17, 29, 48, 0.06);
+  padding: 42px 52px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.c-right h2, .c-left h2 {
+  background: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ef9f28;
+  font-size: 20px;
+  color: #efefef;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.c-right{
+       -webkit-animation: fadeinright 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinright 1s; /* Firefox < 16 */
+        -ms-animation: fadeinright 1s; /* Internet Explorer */
+         -o-animation: fadeinright 1s; /* Opera < 12.1 */
+            animation: fadeinright 1s;
+     
+
+}
+.c-left{
+  position: relative;
+  background: url('../../assets/images/contact.png') #fff;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: scroll;
+  background-size: contain;
+  -webkit-animation: fadeinleft 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinleft 1s; /* Firefox < 16 */
+   -ms-animation: fadeinleft 1s; /* Internet Explorer */
+    -o-animation: fadeinleft 1s; /* Opera < 12.1 */
+       animation: fadeinleft 1s;
+}
+
+@keyframes fadeinright {
+  from { opacity: 0;  right: -80px;}
+  to   { opacity: 1; right: 0px;;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinright {
+  from { opacity: 0;  right: -80px;}
+  to   { opacity: 1; right: 0px;;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinright {
+  from { opacity: 0;  right: -80px;}
+  to   { opacity: 1; right: 0px;;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinright {
+  from { opacity: 0;  right: -80px;}
+  to   { opacity: 1; right: 0px;;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinright {
+  from { opacity: 0;  right: -80px;}
+  to   { opacity: 1; right: 0px;;}
+}

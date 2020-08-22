@@ -1,0 +1,9 @@
+.marginaround{margin:0px 15px;}
+
+/* form{margin: 0px auto;width:500px;} */
+#editUser .form-group{margin: 10px 0px;    width: 500px;
+    margin-left: 30px;}
+#editUser .form-group input {border:1px solid #000; color:#000;}
+.h1{margin-left: 30px}
+
+.marginBottom{margin:40px 0px;}

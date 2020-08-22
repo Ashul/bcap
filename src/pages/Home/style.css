@@ -1,0 +1,49 @@
+#home .cnt .bg-shape-contact{
+  display:none;
+}
+
+#home .cnt .c-box{
+  display:none
+}
+
+#home .cnt .bg-shape{
+  background: url('../../assets/images/bg/breadcrumbs-bg.jpg') no-repeat;
+  background-size: cover;
+  padding: 60px 0 0 0;
+}
+
+#home .cnt .justify-content-center{
+  flex-direction: row-reverse;
+
+}
+
+#home .cnt .c-left{
+  box-shadow: none;
+  background:url('../../assets/images/man.png') no-repeat center bottom;
+  float:right;
+}
+
+
+.box11{
+  padding: 30px 20px;
+}
+.box11 h4 {
+  font-weight: bold;
+}
+.box12{
+  background:#edeafb;
+  padding-top:50px;
+  font-family: 'Maven Pro', sans-serif !important;
+
+}
+.box01{
+  padding: 0px 20px;
+  background:#5e4e77;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 85px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: 'Maven Pro', sans-serif;
+}
+

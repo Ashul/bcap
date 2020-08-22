@@ -1,0 +1,37 @@
+.bg-shape-about {
+  background: url('../../assets/images/f1.jpg') #f9fafc;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: scroll;
+  background-size: cover;
+  -webkit-animation: fadeinleft 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinleft 3s; /* Firefox < 16 */
+   -ms-animation: fadeinleft 3s; /* Internet Explorer */
+    -o-animation: fadeinleft 3s; /* Opera < 12.1 */
+       animation: fadeinleft 3s;
+
+}
+.box-in p {font-size: 15px !important;text-align: left;margin-bottom: 10px;}
+.ul-style-1 li {
+  list-style: none;
+  padding-left: 40px;
+  position: relative;
+  text-align: left;
+  color:#6d6b6b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.ul-style-1 li::before {
+  content: "\f267";
+  font-family: 'Material-Design-Iconic-Font';
+  font-size: 20px;
+  color: #ea6e23;
+  position: absolute;
+  left: 3px;
+  top: 0;
+}
+@media only screen and (max-width: 767px) {
+
+.abt-c {padding-left: 0px !important;}
+.check-top{width:100% !important}
+}

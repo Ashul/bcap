@@ -1,0 +1,31 @@
+.s-box{
+  width: 50%;
+  float: left;
+  color: #fff !important;
+}
+.s-box h1{
+  font-size: 200px;
+  letter-spacing: 2px;
+  color: #fff !important;
+  font-weight: bolder;
+}
+.s-box h2{
+  color: #fff;
+  border-left: 5px solid olive;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.s-right{
+  border-left: 1px solid #59595a;
+}
+.counterbox-block h6{
+  text-align: center;
+  text-transform: uppercase;
+}
+.counter span{
+  text-align: center;
+}
+.counterbox-block h2 {
+text-align: center;
+}

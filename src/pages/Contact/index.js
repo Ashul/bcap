@@ -134,7 +134,7 @@ class Contact extends Component {
                   <p>
                   <b>Phone</b> : +91 7003 194 713
                 </p>
-                  <p><b>Email</b> : info@birlacapital.net.in</p>
+                  <p><b>Email</b> : info@birlacap.in</p>
 
                 </div>
 

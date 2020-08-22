@@ -9,10 +9,10 @@ class ThankYou extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12 col-md-12 col-12 jt-heading in-head">
-							<h3 className="jt-main-head">Thank You</h3>
+							<h3 className="jt-main-head" style={{color:'white'}}>Thank You</h3>
 							<div className="jt-sep"></div>
-							<h4 className="sub-heading" >Our support team will contact you soon</h4>
-              <p ><Link to="/" className="btn btn-primary">Home</Link></p>
+							<h4 className="sub-heading" style={{background:'#fff', padding:'5px 10px'}}>Our support team will contact you soon</h4>
+              <p ><Link to="/" className="btn btn-warning">Home</Link></p>
 
               </div>
 	

@@ -44,7 +44,7 @@ class Header extends Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <ul className="header-topcontact">
                   <li><i className="zmdi zmdi-phone"></i> PHONE : <a href="tel:7003 194 713">7003 194 713</a></li>
-                  <li><i className="zmdi zmdi-email"></i> E-MAIL : <a href="mailto:info@birlacapital.net.in">info@biirlacapital.net.in</a></li>
+                  <li><i className="zmdi zmdi-email"></i> E-MAIL : <a href="mailto:info@birlacap.in">info@birlacap.in</a></li>
                 </ul>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">

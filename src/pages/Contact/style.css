@@ -38,7 +38,7 @@ height:100% !important;
   /* background-image: url(../images/); */
   background: url('../../assets/images/f6.jpg') #f9fafc;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: top right;
   background-attachment: scroll;
   background-size: cover;
   -webkit-animation: fadeinleft 3s; /* Safari, Chrome and Opera > 12.1 */

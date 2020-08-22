@@ -136,8 +136,9 @@ class CheckStatus extends Component {
                         <div className="tab-h">
                             <h4 >Approval status	- Applied</h4>
                               <div className="jt-sep"></div> 
-                              </div>
-                          <table className="table table-striped">
+                          </div>
+                          <div style={{ overflow: 'scroll', width:'100%'}}>
+                            <table className="table table-striped">
                            
   <tbody>
     <tr>
@@ -177,6 +178,7 @@ class CheckStatus extends Component {
                             </tbody>
                             </table>
 
+                            </div>
 
                     </div>
                   </React.Fragment>

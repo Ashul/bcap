@@ -24,7 +24,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
-  "scripts": {
+  "type": "module",
+    "scripts": {
     "start": "node ./server/index.js",
     "build": "react-scripts build",
     "dev": "npm run build && yarn run serve",

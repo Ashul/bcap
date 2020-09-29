@@ -142,64 +142,64 @@ class Contact extends Component {
           <div className="col-lg-6 col-md-12 col-12 c-right">
                 <h2>Get in touch</h2>
                 <form onSubmit={this.handleSubmit}>
-                <div class="form-group">
-                <label for="name">Name</label>
+                <div className="form-group">
+                <label htmlFor="name">Name</label>
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                       onChange={this.myChangeHandler}
                     />
-                    <small class="form-text errorM">{errorName}</small>
+                    <small className="form-text errorM">{errorName}</small>
                     </div>
-                    <div class="form-group">
-                <label for="name">Email</label>
+                    <div className="form-group">
+                <label htmlFor="name">Email</label>
                     <input
                       type="email"
                       name="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       aria-describedby="emailHelp"
                       placeholder="Enter email"
                       onChange={this.myChangeHandler}
                       />
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <small class="form-text errorM">{errorEmail}</small>
+    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small className="form-text errorM">{errorEmail}</small>
 
                   </div>
                   
-                  <div class="form-group">
-                <label for="name">Subject</label>
+                  <div className="form-group">
+                <label htmlFor="name">Subject</label>
                     <input
                       type="text"
                       name="subject"
-                      class="form-control"
+                      className="form-control"
                       id="subject"
                       placeholder="Enter subject"
                       onChange={this.myChangeHandler}
                     />
-                    <small class="form-text errorM">{errorSubject}</small>
+                    <small className="form-text errorM">{errorSubject}</small>
 
                   </div>
                   
-                  <div class="form-group">
-                <label for="name">Message</label>
+                  <div className="form-group">
+                <label htmlFor="name">Message</label>
                     <input
                       type="text"
                       name="message"
-                      class="form-control"
+                      className="form-control"
                       id="message"
                       placeholder="Enter message"
                       onChange={this.myChangeHandler}
                     />
-                <small class="form-text errorM">{errorMessage}</small>
+                <small className="form-text errorM">{errorMessage}</small>
 
                     </div>
       <p className="errorM2">{errormessage}</p>
 
-        <input class="btn btn-primary submit-button" type="submit" value="Submit" />
+        <input className="btn btn-primary submit-button" type="submit" value="Submit" />
 
                 </form>
 

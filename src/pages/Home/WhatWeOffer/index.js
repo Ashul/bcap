@@ -4,7 +4,7 @@ import icon1 from '../../../assets/images/other/icon2.jpg';
 class WhatWeOffer extends Component {
   render() {
     return (
-      <div classNameName="home">
+      <div className="home">
 
 			<div className="features-area in-section box12">
 				<div className="features-wrapper">
@@ -20,7 +20,7 @@ class WhatWeOffer extends Component {
 						<div className="col-lg-3 col-md-6 col-12">
 							<div className="in-feature">
 								<span className="in-feature-icon">
-								<i class="zmdi zmdi-accounts-list-alt"></i>
+								<i className="zmdi zmdi-accounts-list-alt"></i>
 									</span>
 									<h3 className="box01">1</h3>
 								<h4>Online Application</h4>
@@ -30,7 +30,7 @@ class WhatWeOffer extends Component {
 									<div className="col-lg-3 col-md-6 col-12">
 							<div className="in-feature">
 								<span className="in-feature-icon">
-								<i class="zmdi zmdi-accounts-list-alt"></i>
+								<i className="zmdi zmdi-accounts-list-alt"></i>
 									</span>
 									<h3 className="box01">2</h3>
 								<h4>Document Submission</h4>
@@ -41,7 +41,7 @@ class WhatWeOffer extends Component {
 									<div className="col-lg-2 col-md-6 col-12">
 							<div className="in-feature">
 								<span className="in-feature-icon">
-								<i class="zmdi zmdi-accounts-list-alt"></i>
+								<i className="zmdi zmdi-accounts-list-alt"></i>
 									</span>
 									<h3 className="box01">3</h3>
 								<h4>Verification</h4>
@@ -52,7 +52,7 @@ class WhatWeOffer extends Component {
 						<div className="col-lg-2 col-md-6 col-12">
 							<div className="in-feature">
 								<span className="in-feature-icon">
-								<i class="zmdi zmdi-layers"></i>
+								<i className="zmdi zmdi-layers"></i>
 									</span>
 									<h3 className="box01">4</h3>
 
@@ -64,7 +64,7 @@ class WhatWeOffer extends Component {
 									<div className="col-lg-2 col-md-6 col-12">
 							<div className="in-feature">
 								<span className="in-feature-icon">
-								<i class="zmdi zmdi-accounts-list-alt"></i>
+								<i className="zmdi zmdi-accounts-list-alt"></i>
 									</span>
 									<h3 className="box01">5</h3>
 

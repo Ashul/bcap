@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, withRouter, Link } from 'react-router-dom';
-import Header from '../common/Header';
+import Header from '../Header';
 import Footer from '../common/Footer';
 import '../../assets/css/style.css';
 import '../../assets/css/bootstrap.min.css';

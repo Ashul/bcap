@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/logo/logo1.jpg'; // Tell webpack this JS file uses this image
-import MobileNav from '../hamburger';
+import logo from '../../assets/images/logo/logo1.jpg'; // Tell webpack this JS file uses this image
+import MobileNav from '../common/hamburger';
 class Header extends Component {
 
   state = {

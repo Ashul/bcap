@@ -4,7 +4,7 @@ import './style.css'
 class Services extends Component {
   render() {
     return (
-      <div classNameName="home">
+      <div className="home">
 {/* <!-- Services Area --> */}
 			<div className="services-area in-section  ser-bg">
 				<div className="containe r">
@@ -17,17 +17,17 @@ class Services extends Component {
 					</div> */}
 						<div className="row">
 							
-              <div class="pricingTable">
+              <div className="pricingTable">
                 <div>
-                  <div class="pricingTable-header">
-                    <h3 class="title">Personal Loan</h3>
+                  <div className="pricingTable-header">
+                    <h3 className="title">Personal Loan</h3>
                   </div>
                 <hr/>
 									<div className="pricing-content">
                     <p>The personal loan is taken by the clients for their personal utilisation. The personal loan can be instantly approved if the client's cibil score is above 750 points.</p>
 								</div>
                        
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -36,8 +36,8 @@ class Services extends Component {
                 
 
                 <div>
-                  <div class="pricingTable-header">
-                    <h3 class="title">Home Loan</h3>
+                  <div className="pricingTable-header">
+                    <h3 className="title">Home Loan</h3>
                   </div>
                 <hr/>
 									<div className="pricing-content">
@@ -45,7 +45,7 @@ class Services extends Component {
 </p>
 								</div>
                        
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -54,8 +54,8 @@ class Services extends Component {
                 
 
               <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Two Wheeler Loan</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Two Wheeler Loan</h3>
                 </div>
                 <hr/>
 
@@ -65,7 +65,7 @@ class Services extends Component {
 </p>
 								</div>
                         
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -74,8 +74,8 @@ class Services extends Component {
                 
 
                 <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Business Loan</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Business Loan</h3>
                 </div>
                 <hr/>
 								<div className="pricing-content">
@@ -83,7 +83,7 @@ class Services extends Component {
 
 </p>
 								</div>
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -93,8 +93,8 @@ class Services extends Component {
 
                 
                 <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Travel Loan</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Travel Loan</h3>
                 </div>
                 <hr/>
 								<div className="pricing-content">
@@ -103,7 +103,7 @@ class Services extends Component {
 </p>
                     
 								</div>
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -113,8 +113,8 @@ class Services extends Component {
 
 
                 <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Medical Loan</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Medical Loan</h3>
                 </div>
                 <hr/>
 								<div className="pricing-content">
@@ -122,7 +122,7 @@ class Services extends Component {
 
 </p>
 								</div>
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -131,8 +131,8 @@ class Services extends Component {
 
                 
                 <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Investment Planning</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Investment Planning</h3>
                 </div>
                 <hr/>
 								<div className="pricing-content">
@@ -140,7 +140,7 @@ class Services extends Component {
 
 </p>
 								</div>
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	
@@ -149,8 +149,8 @@ class Services extends Component {
 
 
                 <div>
-                        <div class="pricingTable-header">
-                            <h3 class="title">Education Loan</h3>
+                        <div className="pricingTable-header">
+                            <h3 className="title">Education Loan</h3>
                 </div>
                 <hr/>
 								<div className="pricing-content">
@@ -158,7 +158,7 @@ class Services extends Component {
 
 </p>
 								</div>
-                        <div class="pricingTable-signup">
+                        <div className="pricingTable-signup">
 												<p>
 								<Link to="/apply-now" className="in-button in-button-theme">APPLY NOW</Link>
 								</p>	

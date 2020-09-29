@@ -57,8 +57,8 @@ class CitiesSlider extends React.Component {
               <div className="slider__slide-content">
                 <h3 className="slider__slide-subheading">{slide.country || slide.city || slide.city2}</h3>
                 <h2 className="slider__slide-heading">
-                  {slide.city.split('').map(l => <span>{l}</span>)}
-                 <span className="space1"> {slide.city2.split('').map(l => <span>{l}</span>)} </span>
+                  {slide.city.split('').map(l => <span key={l}>{l}</span>)}
+                 <span className="space1"> {slide.city2.split('').map(l => <span key={l}>{l}</span>)} </span>
 
                 </h2>
                 <p className="slider__slide-subheading text">{slide.text}</p>

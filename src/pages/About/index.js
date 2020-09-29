@@ -50,7 +50,7 @@ class About extends Component {
 									<p className="mT20">
 										Borrow up to Rs.25 lakh without the need to pledge any collateral. Simply submit your basic documents to avail the money that you need.									</p>
 									</div>
-									<ul class="ul-style-1">
+									<ul className="ul-style-1">
 <li>We provide you a simpler way to get loans. </li>
 <li>We are a top leading finance company that provides a lot of services. </li>
 <li>We Provide all types of loans with minimum interest rates. </li>

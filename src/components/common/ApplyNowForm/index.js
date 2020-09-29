@@ -131,50 +131,50 @@ class ApplyNowForm extends Component {
                 <div className="col-lg-6 col-md-12 col-12 box1">
 
                   <h2>Personal Information</h2>
-                <div class="form-group">
-                <label for="name">Name</label>
+                <div className="form-group">
+                <label htmlFor="name">Name</label>
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                       onChange={this.myChangeHandler}
                     />
-                    <small class="form-text errorM">{errorName}</small>
+                    <small className="form-text errorM">{errorName}</small>
                   </div>
                   
 
                  
 
-                    <div class="form-group">
-                <label for="name">Email</label>
+                    <div className="form-group">
+                <label htmlFor="name">Email</label>
                     <input
                       type="email"
                       name="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       aria-describedby="emailHelp"
                       placeholder="Enter email"
                       onChange={this.myChangeHandler}
                       />
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <small class="form-text errorM">{errorEmail}</small>
+    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small className="form-text errorM">{errorEmail}</small>
 
                   </div>
                   
-                  <div class="form-group">
-                <label for="phone">Phone</label>
+                  <div className="form-group">
+                <label htmlFor="phone">Phone</label>
                     <input
                       type="text"
                       name="mobile"
-                      class="form-control"
+                      className="form-control"
                         id="mobile"
                         maxLength='10'
                       placeholder="Enter Phone No"
                       onChange={this.myChangeHandler}
                     />
-                    <small class="form-text errorM">{errorMobile}</small>
+                    <small className="form-text errorM">{errorMobile}</small>
 
                   </div>
                    
@@ -183,32 +183,32 @@ class ApplyNowForm extends Component {
                   <div className="col-lg-6 col-md-12 col-12 box2">
                     <h2>Additional Details</h2>
                     
-                    <div class="form-group">
-                <label for="name">Amount required</label>
+                    <div className="form-group">
+                <label htmlFor="name">Amount required</label>
                     <input
                       type="text"
                       name="amountReq"
-                      class="form-control"
+                      className="form-control"
                       id="amountReq"
                       placeholder="Amount required"
                       onChange={this.myChangeHandler}
                     />
-                <small class="form-text errorM">{errorAmountReq}</small>
+                <small className="form-text errorM">{errorAmountReq}</small>
 
                       </div>
                       
 
-                      <div class="form-group">
-                <label for="name">Loan required for</label>
+                      <div className="form-group">
+                <label htmlFor="name">Loan required for</label>
                     <input
                       type="text"
                       name="reqFor"
-                      class="form-control"
+                      className="form-control"
                       id="reqFor"
                       placeholder="Loan required for"
                       onChange={this.myChangeHandler}
                     />
-                <small class="form-text errorM">{errorReqFor}</small>
+                <small className="form-text errorM">{errorReqFor}</small>
 
                     </div>
 
@@ -218,7 +218,7 @@ class ApplyNowForm extends Component {
       <p className="errorM2">{errormessage}</p>
 
                 <p>
-                <input class="btn submit-button" type="submit" value="Submit" />
+                <input className="btn submit-button" type="submit" value="Submit" />
                 </p>
       </form>
          

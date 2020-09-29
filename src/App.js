@@ -4,11 +4,13 @@ import ErrorBoundary from '../src/components/ErrorBoundry';
 import HttpsRedirect from 'react-https-redirect';
 
 const App = (props) => (
-  <HttpsRedirect>
+  // <HttpsRedirect>
+  
   <ErrorBoundary>
+
     <Routes/>
     </ErrorBoundary>
-    </HttpsRedirect>
+    // </HttpsRedirect>
 );
 
 

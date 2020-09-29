@@ -35,12 +35,12 @@ class StateWiseData extends Component {
 						{/* <!--// Single Service --> */}
           </div>
           </div>
-        			<div class="testimonial-area in-section section-padding-lg bg-white">
-				<div class="col-lg-12 col-md-12 col-12 jt-heading">
-					<h3 class="jt-main-head">State-wise Number of Wholesalers and Retailers
+        			<div className="testimonial-area in-section section-padding-lg bg-white">
+				<div className="col-lg-12 col-md-12 col-12 jt-heading">
+					<h3 className="jt-main-head">State-wise Number of Wholesalers and Retailers
 </h3>
-					<div class="jt-sep"></div>
-					<h4 class="sub-heading" >We Are Here to Craft Your Brands With Passion and Love</h4>
+					<div className="jt-sep"></div>
+					<h4 className="sub-heading" >We Are Here to Craft Your Brands With Passion and Love</h4>
 					</div>
 
 <table className="table ">

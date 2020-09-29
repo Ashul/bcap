@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import CitiesSlider from '../../../components/slider';
-import banner1 from '../../../assets/images/bg/bg.webp'
-import banner2 from '../../../assets/images/bg/banner_04.webp'
-import banner3 from '../../../assets/images/bg/bg2.webp'
+import banner1 from '../../../assets/images/bg/bg.jpg'
+import banner2 from '../../../assets/images/bg/banner_04.jpg'
+import banner3 from '../../../assets/images/bg/bg2.jpg'
 
 const slides = [
   {

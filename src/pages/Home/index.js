@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import icon1 from '../../assets/images/other/icon1.jpg';
+// import { Link } from 'react-router-dom';
+// import icon1 from '../../assets/images/other/icon1.jpg';
 
 import WhatWeOffer from './WhatWeOffer';
 import Services from './Services';
 // import Satisfaction from './Satisfaction';
 // import Testimonials from './Testimonials'
 import Banner from './Banner';
-import StateWiseData from './StatewiseData';
-import HContact from '../HomeContact';
+// import StateWiseData from './StatewiseData';
+// import HContact from '../HomeContact';
 import './style.css';
 import ApplyNowForm from '../../components/common/ApplyNowForm';
 

@@ -119,10 +119,10 @@ class CheckStatus extends Component {
                       placeholder="Enter phone"
                       onChange={this.myChangeHandler}
                     />
-                    <input class="btn btn-primary submit-button2 f-left" type="submit" value="Submit" />
+                    <input className="btn btn-primary submit-button2 f-left" type="submit" value="Submit" />
 
-                    <small class="form-text errorM">{errorPhone}</small>
-                    <small class="form-text errorM">{errormessage}</small>
+                    <small className="form-text errorM">{errorPhone}</small>
+                    <small className="form-text errorM">{errormessage}</small>
                       {!render ? <Loader /> : ''}
                   </div>
                 </div>
@@ -131,7 +131,7 @@ class CheckStatus extends Component {
               {data && data._id? (
                 <React.Fragment>
                         <div className="app-d">
-                        <a href="/check-status" class="btn btn-primary " style={{marginBottom:'10px', position:'absolute', color:'#fff', right:'20px'}}>Back To Search</a>
+                        <a href="/check-status" className="btn btn-primary " style={{marginBottom:'10px', position:'absolute', color:'#fff', right:'20px'}}>Back To Search</a>
 
                         <div className="tab-h">
                             <h4 >Approval status	- Applied</h4>

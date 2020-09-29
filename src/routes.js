@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-router-dom';
 import CommonLayout  from './components/commonLayout';
 import CheckStatus from './pages/CheckStatus'
 // import PageNotFound from '@Components/common/PageNotFound';
@@ -17,15 +17,26 @@ import Login from "./pages/Admin/Login/Login";
 import Dashboard from './pages/Admin/Dashboard/Dashboard';
 // import RegisterUser from './pages/Admin/Register/Register';
 // import EnquiryForm from './pages/Admin/EnquiryForm/EnquiryForm'
+// import { createMemoryHistory } from 'history';
+
+// const history = createMemoryHistory();
+
+  // <Router history={history}>
+  //  <Route path="/" exact render={( props ) => ( <div>Helloworld</div> )} />
+  // </Router>
 
 
 class AppRoutes extends React.Component {
+  
 
   render() {
     return (
-      <BrowserRouter>
+      <React.Fragment>
+
+{/* <Router history={history}> */}
         {/* <WrapperBoundary> */}
         <Switch>
+
           <CommonLayout exact path="/" component={Index} />
           <CommonLayout exact path="/about" component={About} />
           <CommonLayout exact path="/check-status" component={CheckStatus} />
@@ -43,7 +54,9 @@ class AppRoutes extends React.Component {
 
           </Switch>
         {/* </WrapperBoundary> */}
-      </BrowserRouter>
+      {/* </Router> */}
+      </React.Fragment>
+
     );
   }
 }

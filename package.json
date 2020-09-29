@@ -26,13 +26,13 @@
   },
   "type": "module",
     "scripts": {
-    "start": "node ./server/index.js",
+    "start": "node server/bootstrap.js ",
     "build": "react-scripts build",
-    "dev": "npm run build && yarn run serve",
+    "dev": "npm run build && npm run serve",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
-    "serve": "node ./server/index.js"
+    "serve": "node server/bootstrap.js "
   
   },
   "eslintConfig": {

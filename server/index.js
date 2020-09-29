@@ -1,5 +1,5 @@
 import express from 'express';
-import serverRenderer from './middleware/renderer';
+import serverRenderer from './middleware/renderer.js';
 
 const PORT = process.env.PORT || 3009;
 const path = require('path');

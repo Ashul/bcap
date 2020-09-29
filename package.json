@@ -25,9 +25,10 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "NODE_ENV=development nodemon server/bootstrap.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "ssr": "NODE_ENV=development nodemon server/bootstrap.js "
+    "ssr": "NODE_ENV=development nodemon server/bootstrap.js",
+    "heroku-postbuild": "NODE_ENV=development nodemon server/bootstrap.js"
   },
   "eslintConfig": {
     "extends": "react-app"
